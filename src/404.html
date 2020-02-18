@@ -17,23 +17,28 @@
     <link rel="stylesheet" href="css/components/simple-action.css">
     <link rel="stylesheet" href="css/components/primary-button.css">
     <link rel="stylesheet" href="css/components/simple-title.css">
+    <link rel="stylesheet" href="CSS/components/background404.css">
+    <link rel="stylesheet" href="css/components/social.css">
     <link rel="stylesheet" href="css/containers/main-menu.css">
     <link rel="stylesheet" href="css/containers/main-header.css">
     <link rel="stylesheet" href="CSS/containers/main-stage.css">
 
     <style>
-        .error {
-            /* 404 */
-            position: absolute;
-            width: 600px;
-            height: 303px;
-            left: 350px;
-            top: 130px;
-            /* NOT Black */
-            opacity: 1;
-        }
         a {
             z-index: 1000;
+        }
+
+        .vector {
+            /* Vector */
+
+            position: absolute;
+            width: 800px;
+            height: 0px;
+            left: 274.5px;
+            top: 580px;
+
+            border: 0.5px dashed #FFFFFF;
+
         }
     </style>
 </head>
@@ -48,19 +53,38 @@
             <a class="primary-button" href="">Log in</a>
         </nav c>
     </header c>
-    <div>
-        <section class="main-stage -top">
-            <h1 class="simple-title">Seems Like we were not ready for that click</h1>
-            <h2 class="simple-subtitle">Well, let's at least play a game?</h2>
-            <a class="primary-button -dark" href="http://slither.io/">Play</a>
-            <a class="simple-action -light" href="">GO Home</a>
-        </section>
-    </div>
+    <section class="main-stage -top">
+        <h1 class="simple-title">Seems Like we were not ready for that click</h1>
+        <h2 class="simple-subtitle">Well, let's at least play a game?</h2>
+        <a class="primary-button -dark" href="http://slither.io/">Play</a>
+        <a class="simple-action -light" href="">GO Home</a>
+    </section>
     <div>
         <img class="error" src="img/404.svg" alt="">
     </div>
 
-
+    <footer>
+        <ul class="social">
+            <li>
+                <a href="http://github.com/sirwez" target="_blank">
+                    <img class="social -fb" src="img/GitHub_Logo_White.png" alt="GitHub SirWez">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/WezFer" target="_blank">
+                    <img class="social -tt" src="img/twitter-logo-silhouette-1.svg" alt="Twitter Weslley">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/waf.exe/" target="_blank">
+                    <img class="social -ig" src="img/instagram (2).svg" alt="Instagram Weslley">
+                </a>
+            </li>
+        </ul>
+        <div>
+            <img class="vector" src="img/Vector.png" alt="">
+        </div>
+    </footer>
 </body>
 
 </html>
